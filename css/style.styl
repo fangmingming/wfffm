@@ -1,0 +1,545 @@
+$img = images
+.spr
+    background:url("../images/spr.png") no-repeat
+.header,.content
+    width:1200px;
+    margin:0 auto;
+    position:relative
+.logo
+    display block
+    width:250px;
+    height 110px
+    position: absolute
+    left:180px
+    top:36px;
+    z-index: 99
+    font-size: 0;
+    background:url("../images/logo.png") no-repeat
+.header
+    height:1066px;
+.btn-os,.btn-download
+    display:block
+    width:149px;
+    height:37px;
+    font-size: 0;
+    position: absolute
+    top:50px;
+    z-index:9
+.btn-os
+    background-position -247px -225px
+    right:74px;
+.btn-download
+    background-position -427px -225px
+    right:-108px;
+
+.content1,.sitAnimal
+    height:914px;
+    width:1414px;
+.content1
+    margin-left: -126px;
+    background:url("../images/content1-bg.png") no-repeat;
+    position: relative
+.sitAnimal
+    background:url("../images/sitAnimal.png") no-repeat;
+    position: absolute
+    left:0
+    top:0
+    p
+        font-size: 12px;
+        color:#89674f
+        line-height 20px
+        text-indent: 2em;
+        position: absolute
+    li
+        &.nth1 p
+            width:215px;
+            left:234px;
+            top:601px;
+        &.nth2 p
+            width:315px;
+            left:580px;
+            top:665px;
+        &.nth3 p
+            width:218px;
+            left:1000px;
+            top:601px;
+
+.content2
+    height:1041px;
+    width:1552px;
+    margin-left: -238px;
+    position: relative
+    background:url('../images/content2-bg.png') no-repeat
+
+.thanksgiving
+    width:1200px;
+    height:493px;
+    position: absolute
+    left:238px;
+    top:281px;
+    span
+        display:block
+        width:87px;
+        height:272px;
+        position: absolute
+        font-size: 0;
+        animation:ths 5s infinite linear
+        transform-origin: 43px top;
+        cursor: pointer;
+        background:url("../images/thanksgiving-icon.png") no-repeat
+        &.n1
+            width:139px;
+            height:277px;
+            background-position 0 -166px;
+            left:0
+            top:166px
+            transform-origin:75px top;
+        &.n2
+            background-position -258px -106px;
+            left:258px
+            top:106px
+            animation-delay:0.3s
+        &.n3
+            background-position -451px 0;
+            left:451px
+            top:0
+            animation-delay:1.2s
+        &.n4
+            height:295px;
+            background-position -630px -74px;
+            left:630px
+            top:74px
+            animation-delay:0.5s
+        &.n5
+            background-position -830px -21px;
+            left:830px
+            top:21px
+            animation-delay:1.5s
+        &.n6
+            background-position -1007px -201px;
+            left:1007px
+            top:201px
+            animation-delay:0.4s
+@keyframes ths{
+    0%,100%{transform:rotate(0deg)}
+    30%{transform:rotate(1deg)}
+    60%{transform:rotate(-2deg)}
+}
+.content3
+    width:1523px;
+    height:942px;
+    background:url("../images/content3-bg.png") no-repeat
+    margin-left: -209px;
+    position: relative
+    overflow:hidden
+.together
+    margin:116px 0 0 300px;
+    height:570px;
+    position: relative
+    li
+        float: left
+        width:134px;
+        height:570px;
+        overflow:hidden
+        position: relative
+        z-index: 2;
+        &.ani
+            width:754px;
+            transition:width 0.2s
+            .together-icon
+                &.i1
+                    background-position -418px 0
+                &.i2
+                    background-position -553px 0
+                &.i3
+                    background-position -688px 0
+        &.last
+            width:1022px;
+            height:469px;
+            background:#efe6db;
+            position: absolute;
+            left:0;
+            top:38px;
+            z-index: 1
+    &-icon,&-main
+        float: left
+    &-icon
+        background:url("../images/together-icon.png") no-repeat
+        width:134px;
+        height:570px;
+        font-size: 0;
+        cursor: pointer
+        &.i1
+            background-position 0 0
+        &.i2
+            background-position -135px 0
+        &.i3
+            background-position -270px 0
+    &-main
+        width:620px;
+        height:469px;
+        background:#e5cdad;
+        margin-top: 38px;
+        overflow:hidden
+        img
+            display: block
+            width:602px;
+            height:379px;
+            margin:22px auto 0
+        p
+            padding-top: 20px;
+            font-size: 0;
+            text-align center;
+            white-space nowrap
+        span,i
+            display:inline-block
+            vertical-align: middle
+            *display: inline
+            *zoom:1
+        span
+            font-size: 20px;
+            color:#6e4431
+            line-height 24px;
+            margin:0 3px;
+            &.r2
+                font-size: 17px;
+        i
+            width:18px;
+            height:17px;
+            background-position -586px 0
+
+.content4
+    width:1403px;
+    height:1021px;
+    background:url("../images/content4-bg.png") no-repeat
+    margin-left: -89px;
+    overflow:hidden
+    position: relative
+    .c4-icon
+        width:200px;
+        height:221px;
+        background:url("../images/anniversy-icon.png") no-repeat
+        position: absolute
+        right:109px;
+        bottom:140px;
+        z-index: 3
+.ann
+    &-tab
+        width:1200px;
+        margin-left: 89px;
+        margin-top: 75px;
+        text-align center
+        font-size: 0;
+        a
+            display: inline-block
+            *display:inline
+            *zoom:1
+            margin:0 50px
+            width: 281px
+            height: 100px
+            &.n1
+                background-position 0 -105px
+                &.curr
+                    background-position 0 0;
+            &.n2
+                background-position -294px -105px
+                &.curr
+                    background-position -294px 0
+    &-cont
+        width:1152px;
+        position: absolute
+        top:282px;
+        left: 110px;
+    &-page
+        display:none
+        &.curr
+            display:block
+    &-hx
+        height:410px;
+        position: relative
+        li
+            width:174px;
+            height:399px;
+            background:url("../images/zq-cards.png") no-repeat
+            float: left;
+            margin:0 9px;
+            font-size: 0;
+            opacity:0.95
+            &:hover
+                transform:scale(1.02)
+                transform-origin:center top
+                opacity:1
+                transition:all 0.5s
+            &.n1
+                background-position -11px 0
+            &.n2
+                background-position -201px 0
+            &.n3
+                background-position -391px 0
+            &.n4
+                background-position -581px 0
+            &.n5
+                background-position -771px 0
+            &.n6
+                background-position -961px 0
+    &-rule
+        margin:25px 0 0 137px;
+        font-size: 20px;
+        color:#bfa894
+        line-height 30px;
+        em
+            color:#c85343;
+    &-thinking
+        height:522px;
+        background:url("../images/thinking-cont.png") no-repeat
+        position: relative
+    &-describtion
+        position: absolute
+        top: 60px
+        left:872px;
+        width:242px;
+        font-size: 16px;
+        color:#815c48;
+        line-height: 24px;
+        h3
+            font-size: 20px;
+            margin-bottom: 8px;
+        p
+            margin-bottom: 5px;
+        em
+            font-weight: bold;
+
+ .content5
+     padding-top: 96px;
+     background:url("../images/content5-bg.png") no-repeat
+.gift
+    height:456px;
+    position: relative
+    &-txt-card
+        width:240px;
+        height:456px;
+        background:url("../images/gift-txt-bg.jpg") no-repeat
+        position: absolute
+        left:947px
+        top:0
+    &-icon
+        width:216px;
+        height:144px;
+        background:url("../images/gift-icon.png") no-repeat
+        position: absolute
+        top:378px;
+        right:-14px;
+        z-index: 5;
+    &-tab
+        width:240px;
+        float: left;
+        position: relative
+        z-index: 2
+        a
+            display:block
+            width:240px;
+            height:149px;
+            margin-bottom: 4.5px;
+            background:url("../images/gift-tab.png") no-repeat
+            font-size: 0;
+            position: relative
+            span
+                display:block
+                position: absolute
+                top:80px;
+                left:100px;
+                font-size: 14px;
+                color:#644318
+            &.curr
+                span
+                    color:#fffef1
+            &.n1
+                background-position 0 0
+                &.curr
+                    background-position -257px 0
+            &.n2
+                background-position 0 -153px
+                &.curr
+                    background-position -257px -153px
+            &.n3
+                background-position 0 -307px
+                &.curr
+                    background-position -257px -307px
+    &-cont
+        float: left;
+        width:960px;
+        height:456px;
+        position: relative
+        z-index: 2
+        img
+            float: left;
+            width 707px
+            height: 456px;
+
+    &-page
+        display:none
+        &.curr
+            display:block
+    &-txt
+        float: left;
+        width:240px;
+        height:456px;
+        overflow:hidden
+        h3
+            width:148px;
+            height:28px;
+            margin:25px auto 5px
+            background:url("../images/gift-tab.png") no-repeat
+            font-size: 0;
+            &.n1
+                background-position 0 -478px;
+            &.n2
+                background-position 0 -511px;
+            &.n3
+                background-position 0 -544px;
+        h4
+            font-size: 16px;
+            color: #835743
+            text-align center;
+            line-height 18px;
+            margin-bottom: 12px;
+            font-weight: normal;
+        p
+            font-size: 16px;
+            color:#835743;
+            line-height: 24px;
+            padding:0 20px;
+        em
+            font-weight: bold;
+.pop
+    width:1033px;
+    height:566px;
+    position: relative
+    font-family: '\65b9\6b63\5170\4ead\9ed1'
+    display:none
+    &-footer
+        background:url("../images/pop-footer.png") no-repeat center bottom
+        width:1033px;
+        height:141px;
+        position: absolute
+        left:0
+        bottom:0
+        z-index: 9
+    .btn-close
+        display:block
+        width:79px;
+        height:196px;
+        background-position -561px -22px;
+        font-size: 0;
+        position: absolute
+        right:53px;
+        top:49px;
+        z-index:9;
+        animation:ths 3s infinite linear
+        transform-origin:51px 29px
+    &-slider
+        width:822px;
+        height: 100%
+        position: relative
+        margin:0 auto
+        img
+            display:block
+            width:822px;
+            height:461px;
+            position: absolute
+            left:0
+            bottom:13px
+        h2
+            height:63px;
+            width:600px;
+            margin:0 auto
+            font-size: 0;
+            background:url("../images/pop-title.png") no-repeat
+            &.n1
+                background-position 0 0
+            &.n2
+                background-position 0 -63px
+            &.n3
+                background-position 0 -127px
+            &.n4
+                background-position 0 -190px
+            &.n5
+                background-position 0 -253px
+            &.n6
+                background-position 0 -317px
+        h3
+            font-size: 16px;
+            color:#8b857a
+            text-align center;
+            font-weight: normal;
+            margin-top: -4px;
+            font-weight: bold;
+        .swiper-container
+            width:100%
+            height:100%
+        .swiper-slide
+            position: relative
+        .swiper-button-next, .swiper-button-prev
+            width:64px;
+            height:64px;
+            background:url("../images/spr.png") no-repeat
+            margin-top: 10px;
+        .swiper-button-next
+            background-position -73px -221px
+            right: -77px
+        .swiper-button-prev
+            background-position 0 -221px
+            left: -77px
+        .swiper-pagination
+            position: relative
+            padding:10px
+        .swiper-pagination-bullet
+            width:18px;
+            height:18px;
+            margin:0 10px;
+            opacity 1
+            background:url("../images/spr.png") no-repeat -202px -221px
+        .swiper-pagination-bullet-active
+            background-position -156px -221px
+
+.nav
+    width:284px;
+    height:680px;
+    background:url("../images/nav.png") no-repeat
+    position: fixed
+    right:0 !important;
+    top:0
+    z-index:999;
+    overflow:hidden
+    font-family: '\65b9\6b63\5170\4ead\9ed1'
+    &-list
+        width:177px;
+        margin-left: 44px;
+        margin-top: 205px;
+        position: relative
+        a
+            display:block
+            height:40px;
+            text-align center;
+            line-height: 40px;
+            font-size: 16px;
+            color:#8f6c5a
+            &:hover
+                text-decoration none
+            &.top
+                position: absolute
+                top:213px;
+                left:74px;
+                font-size: 0;
+                width:32px;
+                height:32px;
+            &.curr,&:hover
+                color:#bd0e1f;
+    .btn-close
+        display:block
+        width:56px;
+        height:79px;
+        font-size: 0;
+        position:absolute
+        left:106px;
+        bottom:91px;
